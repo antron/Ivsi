@@ -32,6 +32,12 @@ class Ivsi
 
     public static function restore()
     {
+        $stdin = '';
+
+        while ($stdin <> 'yes') {
+            print "Enter yes\n";
+            $stdin = trim(fgets(STDIN));
+        }
 
         $datas = [
             'mysql',

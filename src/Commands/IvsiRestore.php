@@ -23,7 +23,7 @@ class IvsiRestore extends Command
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Restore';
 
     /**
      * Create a new command instance.

@@ -23,7 +23,7 @@ class IvsiDump extends Command
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Dump';
 
     /**
      * Create a new command instance.
