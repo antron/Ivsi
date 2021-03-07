@@ -1,0 +1,13 @@
+{
+    "name": "antron/ivsi",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-4": {
+            "Antron\\Ivsi\\": "src/"
+        }
+    }
+
+}
